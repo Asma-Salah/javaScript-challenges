@@ -175,6 +175,17 @@
   }
   sumMultiples(10, 2);
 
+  // challenge 15;
+    let sumDigits = function(num){
+    let sum = 0;
+    for (let i = 0; num > 0; i++){
+      sum += num % 10;
+      num = Math.floor(num / 10);
+    }
+    console.log(sum)
+  }
+  sumDigits(123);
+
 
 
 
